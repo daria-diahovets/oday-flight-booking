@@ -1,0 +1,24 @@
+.fieldset {
+  input {
+    width: 300px;
+    height: 40px;
+    font-size: 0.875rem;
+    padding: 0 20px;
+  }
+}
+
+.d-flex {
+  display: flex;
+  gap: 25px;
+}
+
+.select {
+  width: 300px;
+  height: 40px;
+  font-size: 0.875rem;
+  padding: 0 45px 0 20px;
+}
+
+.date-of-birth {
+  --datepicker-top: 50px;
+}

@@ -1,0 +1,26 @@
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.15;
+  }
+}
+
+.spinner {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 80px auto;
+}
+
+.dot {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -12.5px;
+  margin-left: -12.5px;
+  border-radius: 50%;
+  background-color: #2b2b67;
+  animation: fade 1s linear infinite;
+}

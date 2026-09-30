@@ -1,0 +1,72 @@
+.card {
+  border-radius: 40px;
+  padding: 25px 30px;
+}
+
+.route {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.duration {
+  display: block;
+  height: max-content;
+  position: relative;
+  font-size: 1.375rem;
+  font-weight: 300;
+  &::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 15px;
+    background-image: url('../assets/icons/pin-outline.svg');
+    top: 50%;
+    transform: translateY(-50%);
+    left: -70px;
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 15px;
+    background-image: url('../assets/icons/pin-solid.svg');
+    top: 50%;
+    transform: translateY(-50%);
+    right: -70px;
+  }
+}
+
+.point {
+  strong {
+    display: block;
+    font-size: 1.375rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+}
+
+.time {
+  font-size: 1.375rem;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.btn {
+  width: 145px;
+  height: 40px;
+  font-size: 1.125rem;
+}
